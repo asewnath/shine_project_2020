@@ -40,7 +40,7 @@ html, body {
 }
 .frame2_text {
     color: #FFF8DC;
-    font-size: 80px;
+    font-size: 70px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -94,7 +94,7 @@ html, body {
 }
 #frame4_text{
     color: #573A12;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Roboto', sans-serif;
     width: 40%;
 }
@@ -154,7 +154,7 @@ html, body {
 }
 #frame5_text{
     color: #573A12;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -219,7 +219,7 @@ html, body {
     overflow:hidden;
 }
 #convo_intro_text_container{
-    height: 20vh;
+    height: 30vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -228,7 +228,7 @@ html, body {
 #convo_intro_text{
     width: 40%;
     color: #FFF8DC;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Roboto', sans-serif;
 }
 #convo_image{
@@ -253,7 +253,7 @@ html, body {
 #convo1_text{
     width: 40%;
     color: #FFF8DC;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
@@ -271,7 +271,7 @@ html, body {
 #convo2_text{
     width: 40%;
     color: #FFF8DC;
-    font-size: 50px;
+    font-size: 40px;
     text-align: left;
     font-family: 'Roboto', sans-serif;
 }
@@ -289,7 +289,7 @@ html, body {
 #convo3_text{
     width: 40%;
     color: #FFF8DC;
-    font-size: 50px;
+    font-size: 40px;
     text-align: right;
     font-family: 'Roboto', sans-serif;
 }
@@ -313,7 +313,7 @@ html, body {
 #frame8_text{
     width: 65%;
     color: #FFF8DC;
-    font-size: 80px;
+    font-size: 60px;
     font-family: 'Roboto', sans-serif;
     margin: 10%;
 }
@@ -348,7 +348,7 @@ html, body {
 #frame10_text{
     width: 65%;
     color: #000000;
-    font-size: 80px;
+    font-size: 60px;
     font-family: 'Roboto', sans-serif;
     margin: 10%;
 }
@@ -398,7 +398,7 @@ html, body {
 }
 #frame13_text{
     color: #573A12;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Roboto', sans-serif;
     width: 50%;
     text-align: center;
@@ -448,7 +448,7 @@ html, body {
 #frame14_text{
     width: 60%;
     color: #000000;
-    font-size: 60px;
+    font-size: 40px;
     font-family: 'Roboto', sans-serif;
     margin: 10%;
 }
