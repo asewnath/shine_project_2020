@@ -6,32 +6,32 @@ html, body {
 
 .black_text_medium{
     color: #000000;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
 }
 .white_text_medium{
     color: #FFF8DC;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
 }
 .white_text_large{
     color: #FFF8DC;
-    font-size: 60px;
+    font-size: 70px;
     font-family: 'Roboto', sans-serif;
 }
 .brown_text_medium{
     color: #573A12;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
 }
 .brown_text_large{
     color: #573A12;
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Roboto', sans-serif;
 }
 .brown_text_xlarge{
     color: #573A12;
-    font-size: 80px;
+    font-size: 70px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -143,6 +143,7 @@ html, body {
 }
 #frame4_text{
     width: 40%;
+    text-align:center;
 }
 #symbol_container{
     display:flex;
