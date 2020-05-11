@@ -6,32 +6,37 @@ html, body {
 
 .black_text_medium{
     color: #000000;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.white_text_small{
+    color: #FFF8DC;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
 .white_text_medium{
     color: #FFF8DC;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Roboto', sans-serif;
 }
 .white_text_large{
     color: #FFF8DC;
-    font-size: 70px;
+    font-size: 60px;
     font-family: 'Roboto', sans-serif;
 }
 .brown_text_medium{
     color: #573A12;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Roboto', sans-serif;
 }
 .brown_text_large{
     color: #573A12;
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Roboto', sans-serif;
 }
 .brown_text_xlarge{
     color: #573A12;
-    font-size: 70px;
+    font-size: 80px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -143,7 +148,6 @@ html, body {
 }
 #frame4_text{
     width: 40%;
-    text-align:center;
 }
 #symbol_container{
     display:flex;
@@ -662,10 +666,24 @@ html, body {
     width: 80%;
 }
 
-#frame19 {
+#frame19{
     background: #947032;
-    position:relative;
+    overflow: hidden;
+    height: 105vh;
+}
+
+#frame19_container {
+    background: #947032;
+    position:absolute;
+    z-index: 1;
     height:100%;
     width:100%;
     overflow: hidden;
+}
+#iphone{
+    position:absolute;
+    z-index: 2;
+    height:105vh;
+    width:50%;
+    overflow:hidden;
 }
