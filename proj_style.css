@@ -678,7 +678,7 @@ html, body {
 }
 #iphone{
     position:absolute;
-    z-index: 2;
+    z-index: 6;
     height:105vh;
     width:50%;
     overflow:hidden;
