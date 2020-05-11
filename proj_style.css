@@ -9,7 +9,11 @@ html, body {
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
 }
-
+.white_text_small{
+    color: #FFF8DC;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
 .white_text_medium{
     color: #FFF8DC;
     font-size: 40px;
@@ -144,6 +148,7 @@ html, body {
 }
 #frame4_text{
     width: 40%;
+    text-align:center;
 }
 #symbol_container{
     display:flex;
@@ -408,7 +413,7 @@ html, body {
 #frame11_text_container_1{
     display:flex;
     height:100%;
-    width: 100%;
+    width: 50%;
     position:absolute;
     z-index: 2;
     font-size: 60px;
@@ -529,6 +534,7 @@ html, body {
 #frame14_text{
     width: 60%;
     margin: 10%;
+    text-align: center;
 }
 
 

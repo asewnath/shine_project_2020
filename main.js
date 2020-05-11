@@ -80,35 +80,35 @@ const animation5 = gsap.timeline()
 animation5.from("#convo5_text_container", fadeInProps).to("#convo5_text_container", fadeOutProps)
 
 var convo1_text = new ScrollMagic.Scene({
-    triggerElement: '#convo1_text_container', duration: "100%", offset: 300
+    triggerElement: '#convo1_text_container', duration: "100%", offset: 200
 })
 .setPin('#convo1_text_container')
 .setTween(animation1)
 .addTo(controller);
 
 var convo2_text = new ScrollMagic.Scene({
-    triggerElement: '#convo2_text_container', duration: "100%", offset: 300
+    triggerElement: '#convo2_text_container', duration: "100%", offset: 200
 })
 .setTween(animation2)
 .setPin('#convo2_text_container')
 .addTo(controller);
 
 var convo3_text = new ScrollMagic.Scene({
-    triggerElement: '#convo3_text_container', duration: "100%", offset: 300
+    triggerElement: '#convo3_text_container', duration: "100%", offset: 200
 })
 .setTween(animation3)
 .setPin('#convo3_text_container')
 .addTo(controller);
 
 var convo4_text = new ScrollMagic.Scene({
-    triggerElement: '#convo4_text_container', duration: "100%", offset: 300
+    triggerElement: '#convo4_text_container', duration: "100%", offset: 200
 })
 .setTween(animation4)
 .setPin('#convo4_text_container')
 .addTo(controller);
 
 var convo5_text = new ScrollMagic.Scene({
-    triggerElement: '#convo5_text_container', duration: "100%", offset: 300
+    triggerElement: '#convo5_text_container', duration: "100%", offset: 200
 })
 .setTween(animation5)
 .setPin('#convo5_text_container')
