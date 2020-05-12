@@ -9,6 +9,11 @@ html, body {
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
 }
+.black_text_small{
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
 .white_text_small{
     color: #FFF8DC;
     font-size: 20px;
@@ -401,6 +406,7 @@ html, body {
 #frame10_text{
     width: 60%;
     margin: 10%;
+    text-align:center;
 }
 
 
@@ -487,11 +493,27 @@ html, body {
     width: 50%;
     text-align: center;
 }
-#kira_frame13_container{
+
+#crowd_container{
     height:100vh;
     width:100%;
     position:absolute;
     z-index:0;
+    display:flex;
+    justify-content:center;
+    overflow:hidden;
+    margin-top: 10%;
+}
+#crowd{
+    height:90%;
+    width:90%;   
+}
+
+#kira_frame13_container{
+    height:100vh;
+    width:100%;
+    position:absolute;
+    z-index:1;
     display:flex;
     justify-content:center;
     overflow:hidden;
@@ -532,7 +554,7 @@ html, body {
     width: 100%;
 }
 #frame14_text{
-    width: 60%;
+    width: 70%;
     margin: 10%;
     text-align: center;
 }
