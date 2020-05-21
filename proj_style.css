@@ -489,45 +489,54 @@ html, body {
 }
 
 #crowd_container{
-    height:100vh;
+    height:120vh;
     width:100%;
     position:absolute;
     z-index:0;
     display:flex;
     justify-content:center;
+    align-items: flex-end;
     overflow:hidden;
-    margin-top: 10%;
 }
 #crowd{
+    background-image: url("img/crowd.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
     height:90%;
     width:90%;   
 }
 
 #kira_frame13_container{
-    height:100vh;
+    height:120vh;
     width:100%;
     position:absolute;
     z-index:1;
     display:flex;
     justify-content:center;
+    align-items: flex-end;
     overflow:hidden;
-    margin-top: 10%;
 }
 #kira_frame13{
+    background-image: url("img/kira.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
     height:37%;
-    width:37%;   
+    width:37%;  
 }
 #bubble_frame13_container{
-    height:100vh;
+    height:120vh;
     width:100%;
     position:absolute;
     z-index:3;
     display:flex;
     justify-content:center;
+    align-items: flex-end;
     overflow:hidden;
-    margin-top: 10%;
 }
 #bubble_frame13{
+    background-image: url("img/bubble.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
     height:75%;
     width:75%;
       
@@ -577,7 +586,7 @@ html, body {
 #frame15_kira_container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     height: inherit;
     width: 100%;
     position: absolute;
@@ -585,8 +594,11 @@ html, body {
     z-index: 2;
 }
 #frame15_kira{
-    height: 55%;
-    width: 55%;
+    background-image: url("img/kira_laptop.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 75%;
+    width: 75%;
 }
 
 
