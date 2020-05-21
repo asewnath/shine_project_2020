@@ -53,7 +53,7 @@ html, body {
     overflow: hidden;
 }
 #speech_bubble_frame1{
-    background-image:url(img/frame1/SVG/speech_bubble_frame1.svg);
+    background-image:url(img/speech_bubble_frame1.svg);
     background-repeat: no-repeat;
     background-size: 40% auto;
     height:100%;
@@ -131,6 +131,7 @@ html, body {
 #frame3_kira{
     height:50%;
     width:50%;
+    margin-bottom:5%;
 }
 
 
@@ -270,13 +271,6 @@ html, body {
     margin: 20%;
 }
 
-
-
-
-
-
-
-
 #frame7{
     background: #86B0A6;
     height:100%;
@@ -293,7 +287,7 @@ html, body {
     width: 40%;
 }
 #convo_image{
-    background-image: url("img/frame1/SVG/conversation.svg");
+    background-image: url("img/conversation.svg");
     height: 100vh;
     width: 100%;
     background-position: bottom;
@@ -636,7 +630,7 @@ html, body {
 
 }
 #kira_frame17{
-    background-image: url("img/frame1/SVG/kira_flag.svg");
+    background-image: url("img/kira_flag.svg");
     background-repeat: no-repeat;
     background-position-x: right;
     height: 80%;
@@ -683,7 +677,7 @@ html, body {
 }
 
 #frame18_speech_bubble{
-    background-image: url("img/frame1/SVG/frame18_speech_bubble.svg");
+    background-image: url("img/frame18_speech_bubble.svg");
     background-repeat: no-repeat;
     background-position-x: right;
     height: 80%;
