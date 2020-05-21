@@ -6,42 +6,42 @@ html, body {
 
 .black_text_medium{
     color: #000000;
-    font-size: 40px;
+    font-size: 1.8vw;
     font-family: 'Roboto', sans-serif;
 }
 .black_text_small{
     color: #000000;
-    font-size: 30px;
+    font-size: 1.7vw;
     font-family: 'Roboto', sans-serif;
 }
 .white_text_small{
     color: #FFF8DC;
-    font-size: 20px;
+    font-size: 1.3vw;
     font-family: 'Roboto', sans-serif;
 }
 .white_text_medium{
     color: #FFF8DC;
-    font-size: 40px;
+    font-size: 1.8vw;
     font-family: 'Roboto', sans-serif;
 }
 .white_text_large{
     color: #FFF8DC;
-    font-size: 60px;
+    font-size: 3vw;
     font-family: 'Roboto', sans-serif;
 }
 .brown_text_medium{
     color: #573A12;
-    font-size: 40px;
+    font-size: 1.8vw;
     font-family: 'Roboto', sans-serif;
 }
 .brown_text_large{
     color: #573A12;
-    font-size: 60px;
+    font-size: 3vw;
     font-family: 'Roboto', sans-serif;
 }
 .brown_text_xlarge{
     color: #573A12;
-    font-size: 80px;
+    font-size: 4vw;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -470,7 +470,7 @@ html, body {
 
 #frame13{
     background: #FFF8DC;
-    height: 120vh;
+    height: 140vh;
     width: 100%;
     overflow: hidden;
 }
@@ -489,7 +489,7 @@ html, body {
 }
 
 #crowd_container{
-    height:120vh;
+    height:inherit;
     width:100%;
     position:absolute;
     z-index:0;
@@ -506,25 +506,9 @@ html, body {
     width:90%;   
 }
 
-#kira_frame13_container{
-    height:120vh;
-    width:100%;
-    position:absolute;
-    z-index:1;
-    display:flex;
-    justify-content:center;
-    align-items: flex-end;
-    overflow:hidden;
-}
-#kira_frame13{
-    background-image: url("img/kira.svg");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    height:37%;
-    width:37%;  
-}
+
 #bubble_frame13_container{
-    height:120vh;
+    height:inherit;
     width:100%;
     position:absolute;
     z-index:3;
@@ -537,8 +521,8 @@ html, body {
     background-image: url("img/bubble.svg");
     background-position: bottom;
     background-repeat: no-repeat;
-    height:75%;
-    width:75%;
+    height: 80%;
+    width: 80%;
       
 }
 
