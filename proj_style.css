@@ -137,7 +137,7 @@ html, body {
 
 #frame4{
     background: #B3B785;
-    height: 140vh;
+    height: 100vh;
     width: 100%;
 }
 #frame4_animation_container{
@@ -156,48 +156,12 @@ html, body {
     width: 40%;
     text-align:center;
 }
-#symbol_container{
-    display:flex;
-    width:100%;
-    justify-content: space-between;
-    position:absolute;
-    z-index:1;
-}
-#democratic_symbol{
-    height:35%;
-    width:35%;
-}
-#republican_symbol{
-    height:40%;
-    width:40%;
-}
-#kira_frame4_container{
-    height:100%;
-    width:100%;
-    position:absolute;
-    z-index:2;
-    display:flex;
-    justify-content:center;
-    overflow:hidden; 
-}
-#kira_frame4{
-    height:35%;
-    width:35%;
-    margin:10%;   
-}
-#bubble_frame4_container{
-    height:100%;
-    width:100%;
-    position:absolute;
-    z-index:3;
-    display:flex;
-    justify-content:center;
-    overflow:hidden; 
-}
-#bubble_frame4{
-    height:60%;
-    width:60%;
-    margin:5%;   
+#politics_container{
+    background-image: url("img/kira_politics.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height:80%;
+    width:100%;  
 }
 
 
