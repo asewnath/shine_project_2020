@@ -45,6 +45,32 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+#intro{
+    background: #EECD5C;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+#intro_text{
+    font-size: 7vw;
+    margin-bottom: 5%;
+    color: #573A12;
+    font-family: 'Roboto', sans-serif;
+}
+#scroll_icon{
+    background-image:url(img/scroll.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+    height:5%;
+    width:5%;
+}
+
+
 #frame1 {
     background: #947032;
     position:relative;
@@ -62,6 +88,8 @@ html, body {
     left:25%;
     position:absolute;
 }
+
+
 #frame2{
     background: #677C75;
     height: 140vh;
@@ -93,6 +121,7 @@ html, body {
     width:100%;
 }
 
+
 #frame3{
     background: #B3B785;
     height: 150vh;
@@ -104,7 +133,6 @@ html, body {
     width: 100%;
     overflow: hidden;
 }
-
 #cloud_bottom_container{
     display: flex;
     height: inherit;
@@ -123,7 +151,7 @@ html, body {
     height: inherit;
     width: 100%;
     justify-content:center;
-    align-items:center;
+    align-items:flex-end;
     position:absolute;
     z-index:1;
     overflow:hidden;
@@ -131,7 +159,7 @@ html, body {
 #frame3_kira{
     height:50%;
     width:50%;
-    margin-bottom:5%;
+    margin-bottom:20%;
 }
 
 
@@ -165,7 +193,6 @@ html, body {
 }
 
 
-
 #frame5{
     background: #B3B785;
     height: 120vh;
@@ -179,8 +206,6 @@ html, body {
     justify-content: center;
     align-items: center;
 }
-
-
 
 
 #frame6{
@@ -201,7 +226,6 @@ html, body {
     justify-content: center;
     align-items: center;
 }
-
 #frame6_container_1{
     display:flex;
     width:100%;
@@ -221,7 +245,6 @@ html, body {
     align-self: center;
     justify-self: flex-end;
 }
-
 #frame6_container_2{
     display:flex;
     width:100%;
@@ -234,6 +257,7 @@ html, body {
     width:20%;
     margin: 20%;
 }
+
 
 #frame7{
     background: #86B0A6;
@@ -277,7 +301,6 @@ html, body {
     justify-content: center;
     align-items: flex-start;
 }
-
 #convo2_text{
     width: 40%;
     text-align: left;
@@ -319,7 +342,6 @@ html, body {
 }
 
 
-
 #frame8{
     background: #677261;
     height: 130vh;
@@ -333,7 +355,6 @@ html, body {
     width: 65%;
     margin: 10%;
 }
-
 
 
 #frame9{
@@ -386,7 +407,6 @@ html, body {
     justify-content: flex-start;
     align-items: flex-start;
 }
-
 #frame11_text_container_2{
     display:flex;
     height:100%;
@@ -399,7 +419,6 @@ html, body {
     justify-content: flex-end;
     align-items: flex-end;
 }
-
 #flag_container{
     display: flex;
     height:100%;
@@ -548,7 +567,6 @@ html, body {
     height: 75%;
     width: 75%;
 }
-
 
 
 #frame16{
