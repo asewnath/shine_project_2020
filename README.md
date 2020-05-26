@@ -1,4 +1,4 @@
-## SHINE Project 2020
+## AIGA DC SHINE Program 2020
 
 # A Nonvoter Journey
 
