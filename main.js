@@ -167,7 +167,7 @@ var frame_flag_scene = new ScrollMagic.Scene({
     triggerElement: '#kira_frame17_container', 
     triggerHook: "onLeave"
 })
-.duration("235%")
+.duration("250%")
 .setTween(flag_animation)
 .setPin('#kira_frame17_container')
 .addTo(controller);
