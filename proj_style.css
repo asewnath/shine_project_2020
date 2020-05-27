@@ -227,8 +227,6 @@ html, body {
     align-items: center;
 }
 #frame6_container{
-    position:absolute;
-    z-index:1;
     background-image: url("img/hard_life.svg");
     background-position: top;
     background-repeat: no-repeat;
